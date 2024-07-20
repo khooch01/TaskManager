@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User View Tasks</title>
+    <link rel="stylesheet" th:href="@{/user_view_tasks.css}">
+</head>
+<body>
+    <h1>User View Tasks</h1>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+    
+    <!-- Create Task Button -->
+    <a th:href="@{/user/tasks/create}">
+        <button>Create Task</button>
+    </a>
+    
+    <!-- Check if tasks list is empty -->
+    <div th:if="${#lists.isEmpty(tasks)}">
+        <p>No tasks found.</p>
+    </div>
+    
+    <!-- Display tasks if not empty -->
+    <table th:if="${not #lists.isEmpty(tasks)}">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Priority</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Iterate over the list of tasks -->
+            <tr th:each="task : ${tasks}">
+                <td th:text="${task.title}"></td>
+                <td th:text="${task.description}"></td>
+                <td th:text="${task.category}"></td>
+                <td th:text="${task.priority}"></td>
+                <td>
+                    <a th:href="@{'/tasks/' + ${task.id}}">View</a>
+                    <a th:href="@{'/tasks/edit/' + ${task.id}}">Edit</a>
+                    <a th:href="@{'/tasks/delete/' + ${task.id}}">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!-- Admin login button -->
+    <form th:action="@{/admin/tasks}" method="get">
+        <button type="submit">Admin Login</button>
+    </form>
+</body>
+</html>

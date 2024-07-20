@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+    
+<body>
+    <h1>Choose Payment Method</h1>
+    <form id="payment-form">
+        <input type="radio" id="gpay" name="paymentMode" value="gpay">
+        <label for="gpay">Google Pay</label><br>
+        <input type="radio" id="creditCard" name="paymentMode" value="credit_card">
+        <label for="creditCard">Credit Card</label><br>
+        <input type="submit" value="Proceed to Payment">
+    </form>
+    <button onclick="goBack()">Go Back</button>
+    <script>
+        document.getElementById("payment-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var selectedMode = document.querySelector('input[name="paymentMode"]:checked').value;
+            processPayment(selectedMode);
+        });
+
+        function processPayment(mode) {
+            fetch('/process-payment?mode=' + mode)
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    }
+                    throw new Error('Network response was not ok.');
+                })
+                .then(data => {
+                    alert("Payment processed successfully!");
+                    console.log(data);
+                })
+                .catch(error => {
+                    alert("Error processing payment!");
+                    console.error('Error:', error);
+                });
+        }
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

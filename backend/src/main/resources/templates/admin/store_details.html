@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Details</title>
+    <link rel="stylesheet" th:href="@{/store_details.css}">
+</head>
+<body>
+<div class="form">
+    <div class="header">
+        <h1>Store Details</h1>
+        <a th:href="@{/admin/stores}">Back to Stores</a>
+    </div>
+    <div>
+        <p><strong>Name:</strong> <span th:text="${store.name}"></span></p>
+        <p><strong>Phone Number:</strong> <span th:text="${store.phoneNumber}"></span></p>
+        <p><strong>Localities Served:</strong> <span th:text="${store.localities}"></span></p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View Stores</title>
+    <link rel="stylesheet" th:href="@{/admin_view_stores.css}">
+</head>
+<body>
+    <h1>Admin View Stores</h1>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Localities Served</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="store : ${stores}">
+                <td th:text="${store.name}"></td>
+                <td th:text="${store.phoneNumber}"></td>
+                <td th:text="${store.localities}"></td>
+                <td>
+                    <a th:href="@{'/admin/stores/' + ${store.id}}">View</a>
+                    <a th:href="@{'/admin/stores/edit/' + ${store.id}}">Edit</a>
+                    <a th:href="@{'/admin/stores/delete/' + ${store.id}}" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><a th:href="@{/admin/stores/add}">Add Store</a></p>
+</body>
+</html>
