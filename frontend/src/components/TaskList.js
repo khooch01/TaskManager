@@ -1,9 +1,6 @@
 import React from 'react';
-import { useTasks } from '../context/TaskContext';
 
-const TaskList = ({ onEdit }) => {
-    const { tasks, removeTask } = useTasks();
-
+const TaskList = ({ tasks, onEdit, onDelete }) => {
     if (!tasks.length) {
         return <p>No tasks available.</p>;
     }
@@ -19,7 +16,7 @@ const TaskList = ({ onEdit }) => {
                         <p>Category: {task.category}</p>
                         <p>Priority: {task.priority}</p>
                         <button onClick={() => onEdit(task)}>Edit</button>
-                        <button onClick={() => removeTask(task.id)}>Delete</button>
+                        <button onClick={() => onDelete(task.id)}>Delete</button>
                     </li>
                 ))}
             </ul>

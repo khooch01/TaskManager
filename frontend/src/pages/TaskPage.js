@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import TaskList from '../components/TaskList';
+import TaskSearch from '../components/TaskSearch';
 import { getTasks, createTask, updateTask, deleteTask } from '../taskApi';
 import './TaskPage.css';
 
 const TaskPage = () => {
     const [tasks, setTasks] = useState([]);
+    const [filteredTasks, setFilteredTasks] = useState([]);
     const [selectedTask, setSelectedTask] = useState(null);
     const [newTask, setNewTask] = useState({ title: '', description: '', category: '', priority: '' });
 
@@ -13,8 +15,13 @@ const TaskPage = () => {
     }, []);
 
     const fetchTasks = async () => {
-        const fetchedTasks = await getTasks();
-        setTasks(fetchedTasks);
+        try {
+            const fetchedTasks = await getTasks();
+            setTasks(fetchedTasks);
+            setFilteredTasks(fetchedTasks); // Initialize filtered tasks with all tasks
+        } catch (error) {
+            console.error('Error fetching tasks:', error);
+        }
     };
 
     const handleEdit = (task) => {
@@ -22,27 +29,52 @@ const TaskPage = () => {
     };
 
     const handleSave = async () => {
-        await updateTask(selectedTask);
-        setSelectedTask(null);
-        fetchTasks();
+        try {
+            await updateTask(selectedTask.id, selectedTask);
+            setSelectedTask(null);
+            fetchTasks();
+        } catch (error) {
+            console.error('Error saving task:', error);
+        }
     };
 
     const handleCreate = async () => {
-        await createTask(newTask);
-        setNewTask({ title: '', description: '', category: '', priority: '' });
-        fetchTasks();
+        try {
+            await createTask(newTask);
+            setNewTask({ title: '', description: '', category: '', priority: '' });
+            fetchTasks();
+        } catch (error) {
+            console.error('Error creating task:', error);
+        }
     };
 
     const handleDelete = async (id) => {
-        await deleteTask(id);
-        fetchTasks();
+        try {
+            await deleteTask(id);
+            fetchTasks();
+        } catch (error) {
+            console.error('Error deleting task:', error);
+        }
+    };
+
+    const handleSearch = (searchType, searchQuery) => {
+        if (searchQuery === '') {
+            setFilteredTasks(tasks);
+            return;
+        }
+
+        const filtered = tasks.filter(task =>
+            task[searchType].toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        setFilteredTasks(filtered);
     };
 
     return (
         <div className="task-page">
             <h1 className="header">Task Manager</h1>
+            <TaskSearch onSearch={handleSearch} />
             <div className="task-list">
-                <TaskList onEdit={handleEdit} onDelete={handleDelete} />
+                <TaskList tasks={filteredTasks} onEdit={handleEdit} onDelete={handleDelete} />
             </div>
             {selectedTask && (
                 <div className="task-edit">
