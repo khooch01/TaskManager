@@ -35,6 +35,12 @@ Configuration
 -------------
 To ensure proper communication between the frontend and backend, CORS (Cross-Origin Resource Sharing) must be configured. The backend's CORS settings are managed in the `WebConfig` class located at `src/main/java/com/khooch/taskmanager/configuration/WebConfig.java`. The configuration should allow requests from `http://localhost:3000`.
 
+Registration Requirements
+-------------------------
+To register a new user, the following requirements must be met:
+1. **Username**: Must be longer than 6 characters.
+2. **Password**: Must contain at least one special character (@, !).
+   
 Features
 --------
 1. **Task List**: View a list of all tasks.
