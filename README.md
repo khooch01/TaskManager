@@ -9,9 +9,9 @@ Backend Setup
 -------------
 1. Ensure you have Java and Maven installed on your machine.
 2. Clone the backend repository from GitHub:
-   `git clone https://github.com/khooch01/Task-Manager.git`
+   `git clone https://github.com/khooch01/TaskManager.git`
 3. Navigate to the project directory:
-   `cd Task-Manager`
+   `cd TaskManager`
 4. Install the required dependencies and build the project:
    `mvn clean install`
 5. Run the Spring Boot application:
@@ -22,15 +22,13 @@ Backend Setup
 Frontend Setup
 --------------
 1. Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
-2. Clone the frontend repository from GitHub:
-   `git clone https://github.com/khooch01/task-manager-frontend.git`
-3. Navigate to the project directory:
-   `cd task-manager-frontend`
-4. Install the required dependencies:
+2. Navigate to the project directory:
+   `cd frontend`
+3. Install the required dependencies:
    `npm install`
-5. Start the React development server:
+4. Start the React development server:
    `npm start`
-6. The frontend application will be accessible at:
+5. The frontend application will be accessible at:
    `http://localhost:3000`
 
 Configuration
@@ -76,5 +74,5 @@ Troubleshooting
 
 Contact
 -------
-For any questions or issues, please contact the project maintainer at [your-email@example.com].
+For any questions or issues, please contact the project maintainer at [khooch695@gmail.com].
 
