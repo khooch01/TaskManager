@@ -1,0 +1,37 @@
+.terms-and-conditions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .terms-description {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    margin: 15px 0 5px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

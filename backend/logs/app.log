@@ -1,26 +1,26 @@
-2024-07-21T21:40:31.774+08:00  INFO 9896 --- [taskmanager] [restartedMain] c.k.taskmanager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.11 with PID 9896 (C:\new\task-manager-combined\backend\target\classes started by khooc in C:\new\task-manager-combined\backend)
-2024-07-21T21:40:31.782+08:00  INFO 9896 --- [taskmanager] [restartedMain] c.k.taskmanager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
-2024-07-21T21:40:31.842+08:00  INFO 9896 --- [taskmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-21T21:40:31.843+08:00  INFO 9896 --- [taskmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-21T21:40:33.343+08:00  INFO 9896 --- [taskmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-21T21:40:33.412+08:00  INFO 9896 --- [taskmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
-2024-07-21T21:40:34.384+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-07-21T21:40:34.399+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-21T21:40:34.400+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-21T21:40:34.471+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-21T21:40:34.472+08:00  INFO 9896 --- [taskmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2628 ms
-2024-07-21T21:40:34.704+08:00 DEBUG 9896 --- [taskmanager] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2024-07-21T21:40:34.896+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-07-21T21:40:35.034+08:00  INFO 9896 --- [taskmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-07-21T21:40:35.094+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-07-21T21:40:35.570+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-07-21T21:40:35.615+08:00  INFO 9896 --- [taskmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-07-21T21:40:35.998+08:00  INFO 9896 --- [taskmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@721217ec
-2024-07-21T21:40:36.002+08:00  INFO 9896 --- [taskmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-07-21T21:40:36.064+08:00  WARN 9896 --- [taskmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-07-21T21:40:36.065+08:00  WARN 9896 --- [taskmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-07-21T21:40:37.098+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-07-21T21:40:37.157+08:00  WARN 9896 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table roles modify column id bigint not null auto_increment" via JDBC [Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_2' are incompatible.]
+2024-07-25T09:08:54.159+08:00  INFO 26072 --- [taskmanager] [restartedMain] c.k.taskmanager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.11 with PID 26072 (C:\know-your-neighborhood\TaskManager\backend\target\classes started by khooc in C:\know-your-neighborhood\TaskManager\backend)
+2024-07-25T09:08:54.168+08:00  INFO 26072 --- [taskmanager] [restartedMain] c.k.taskmanager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-25T09:08:54.218+08:00  INFO 26072 --- [taskmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-25T09:08:54.219+08:00  INFO 26072 --- [taskmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-25T09:08:55.744+08:00  INFO 26072 --- [taskmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-25T09:08:55.813+08:00  INFO 26072 --- [taskmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2024-07-25T09:08:56.794+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-25T09:08:56.808+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-25T09:08:56.809+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-25T09:08:56.874+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-25T09:08:56.875+08:00  INFO 26072 --- [taskmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2656 ms
+2024-07-25T09:08:57.071+08:00 DEBUG 26072 --- [taskmanager] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-07-25T09:08:57.256+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-25T09:08:57.377+08:00  INFO 26072 --- [taskmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-25T09:08:57.437+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-25T09:08:57.845+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-25T09:08:57.881+08:00  INFO 26072 --- [taskmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-25T09:08:58.269+08:00  INFO 26072 --- [taskmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77e24a69
+2024-07-25T09:08:58.272+08:00  INFO 26072 --- [taskmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-25T09:08:58.333+08:00  WARN 26072 --- [taskmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-25T09:08:58.334+08:00  WARN 26072 --- [taskmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-25T09:08:59.339+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-25T09:08:59.403+08:00  WARN 26072 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table roles modify column id bigint not null auto_increment" via JDBC [Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_2' are incompatible.]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table roles modify column id bigint not null auto_increment" via JDBC [Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_2' are incompatible.]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -76,7 +76,7 @@ Caused by: java.sql.SQLException: Referencing column 'role_id' and referenced co
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	... 42 common frames omitted
 
-2024-07-21T21:40:37.169+08:00  WARN 9896 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles modify column user_id bigint not null" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_1' are incompatible.]
+2024-07-25T09:08:59.419+08:00  WARN 26072 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles modify column user_id bigint not null" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_1' are incompatible.]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table user_roles modify column user_id bigint not null" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_1' are incompatible.]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -132,7 +132,7 @@ Caused by: java.sql.SQLException: Referencing column 'user_id' and referenced co
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	... 42 common frames omitted
 
-2024-07-21T21:40:37.177+08:00  WARN 9896 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles modify column role_id bigint not null" via JDBC [Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_2' are incompatible.]
+2024-07-25T09:08:59.434+08:00  WARN 26072 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles modify column role_id bigint not null" via JDBC [Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_2' are incompatible.]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table user_roles modify column role_id bigint not null" via JDBC [Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_2' are incompatible.]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -188,7 +188,7 @@ Caused by: java.sql.SQLException: Referencing column 'role_id' and referenced co
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	... 42 common frames omitted
 
-2024-07-21T21:40:37.187+08:00  WARN 9896 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table users modify column id bigint not null auto_increment" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_1' are incompatible.]
+2024-07-25T09:08:59.448+08:00  WARN 26072 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table users modify column id bigint not null auto_increment" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_1' are incompatible.]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table users modify column id bigint not null auto_increment" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'user_roles_ibfk_1' are incompatible.]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -244,7 +244,7 @@ Caused by: java.sql.SQLException: Referencing column 'user_id' and referenced co
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	... 42 common frames omitted
 
-2024-07-21T21:40:37.203+08:00  WARN 9896 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table task add constraint FKbhwpp8tr117vvbxhf5sbkdkc9 foreign key (user_id) references users (id)" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'FKbhwpp8tr117vvbxhf5sbkdkc9' are incompatible.]
+2024-07-25T09:08:59.469+08:00  WARN 26072 --- [taskmanager] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table task add constraint FKbhwpp8tr117vvbxhf5sbkdkc9 foreign key (user_id) references users (id)" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'FKbhwpp8tr117vvbxhf5sbkdkc9' are incompatible.]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table task add constraint FKbhwpp8tr117vvbxhf5sbkdkc9 foreign key (user_id) references users (id)" via JDBC [Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'FKbhwpp8tr117vvbxhf5sbkdkc9' are incompatible.]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -299,140 +299,183 @@ Caused by: java.sql.SQLException: Referencing column 'user_id' and referenced co
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	... 41 common frames omitted
 
-2024-07-21T21:40:37.232+08:00  INFO 9896 --- [taskmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-07-21T21:40:37.646+08:00  WARN 9896 --- [taskmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-07-21T21:40:37.707+08:00  INFO 9896 --- [taskmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
-2024-07-21T21:40:37.957+08:00 DEBUG 9896 --- [taskmanager] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
-2024-07-21T21:40:38.094+08:00 DEBUG 9896 --- [taskmanager] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-07-21T21:40:38.283+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-07-21T21:40:38.375+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e9986d5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@421bfdd, org.springframework.security.web.context.SecurityContextHolderFilter@3376f67e, org.springframework.security.web.header.HeaderWriterFilter@30c82a18, org.springframework.web.filter.CorsFilter@240f826e, org.springframework.security.web.authentication.logout.LogoutFilter@65f8f959, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d3e0cd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@606957b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c7658d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17a15eeb, org.springframework.security.web.access.ExceptionTranslationFilter@1ce64472, org.springframework.security.web.access.intercept.AuthorizationFilter@2b895c69]
-2024-07-21T21:40:38.512+08:00 DEBUG 9896 --- [taskmanager] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-07-21T21:40:38.569+08:00 DEBUG 9896 --- [taskmanager] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-07-21T21:40:38.932+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-07-21T21:40:39.018+08:00  INFO 9896 --- [taskmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-07-21T21:40:39.035+08:00  INFO 9896 --- [taskmanager] [restartedMain] c.k.taskmanager.TaskManagerApplication   : Started TaskManagerApplication in 7.721 seconds (process running for 8.593)
-2024-07-21T21:40:40.394+08:00  INFO 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-21T21:40:40.395+08:00  INFO 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-21T21:40:40.395+08:00 DEBUG 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2024-07-21T21:40:40.395+08:00 DEBUG 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2024-07-21T21:40:40.396+08:00 DEBUG 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2024-07-21T21:40:40.397+08:00 DEBUG 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@432d0f95
-2024-07-21T21:40:40.397+08:00 DEBUG 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2b9ce6b5
-2024-07-21T21:40:40.398+08:00 DEBUG 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2024-07-21T21:40:40.398+08:00  INFO 9896 --- [taskmanager] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-07-21T21:42:47.891+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:42:47.894+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:42:48.083+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:42:48.084+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@4681ae51]]
-2024-07-21T21:42:48.099+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:42:50.105+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/users/registration", parameters={}
-2024-07-21T21:42:50.105+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.UserRestController#registerUserAccount(UserRegistrationDto)
-2024-07-21T21:42:50.138+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.khooch.taskmanager.dto.UserRegistrationDto@516123fd]
-2024-07-21T21:42:50.174+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.khooch.taskmanager.exception.GlobalExceptionHandler#handleException(Exception, WebRequest)
-2024-07-21T21:42:50.186+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json', given [application/json, text/plain, */*] and supported [application/problem+json]
-2024-07-21T21:42:50.191+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Bad Request', status=400, detail='Invalid request content.' (truncated)...]
-2024-07-21T21:42:50.193+08:00  WARN 9896 --- [taskmanager] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.khooch.taskmanager.controller.UserRestController.registerUserAccount(com.khooch.taskmanager.dto.UserRegistrationDto) with 3 errors: [Field error in object 'userRegistrationDto' on field 'password': rejected value [1]; codes [Size.userRegistrationDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegistrationDto.password,password]; arguments []; default message [password],20,10]; default message [Password must be between 10 and 20 characters long]] [Field error in object 'userRegistrationDto' on field 'password': rejected value [1]; codes [ValidPassword.userRegistrationDto.password,ValidPassword.password,ValidPassword.java.lang.String,ValidPassword]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegistrationDto.password,password]; arguments []; default message [password]]; default message [Invalid password]] [Field error in object 'userRegistrationDto' on field 'username': rejected value [1]; codes [Size.userRegistrationDto.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegistrationDto.username,username]; arguments []; default message [username],2147483647,6]; default message [Username must be at least 6 characters long]] ]
-2024-07-21T21:42:50.194+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
-2024-07-21T21:42:53.518+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
-2024-07-21T21:42:53.519+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
-2024-07-21T21:42:53.712+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
-2024-07-21T21:42:53.713+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
-2024-07-21T21:42:53.715+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:42:53.727+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:42:53.728+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:42:53.735+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:42:53.736+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@40e5b538]]
-2024-07-21T21:42:53.738+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:44:30.182+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:44:30.182+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:44:30.187+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:44:30.188+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@f9867c4]]
-2024-07-21T21:44:30.189+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:45:04.378+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:45:04.379+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:45:04.384+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:45:04.385+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2f35fcb8]]
-2024-07-21T21:45:04.386+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:45:06.335+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
-2024-07-21T21:45:06.336+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
-2024-07-21T21:45:06.406+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
-2024-07-21T21:45:06.407+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
-2024-07-21T21:45:06.407+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:45:06.425+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:45:06.425+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:45:06.430+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:45:06.430+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@4f8a17cf]]
-2024-07-21T21:45:06.431+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:22.326+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/api/tasks/16", parameters={}
-2024-07-21T21:47:22.327+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#deleteTask(Long)
-2024-07-21T21:47:22.369+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:22.370+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
-2024-07-21T21:47:22.371+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
-2024-07-21T21:47:22.375+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:47:22.376+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:47:22.381+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:22.381+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
-2024-07-21T21:47:22.382+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:27.984+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/tasks", parameters={}
-2024-07-21T21:47:27.984+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#createTask(Task)
-2024-07-21T21:47:27.989+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.khooch.taskmanager.entity.Task@26bd09f3]
-2024-07-21T21:47:28.013+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:28.013+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.khooch.taskmanager.entity.Task@26bd09f3]
-2024-07-21T21:47:28.014+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:28.019+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:47:28.019+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:47:28.024+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:28.024+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@4cc0464]]
-2024-07-21T21:47:28.025+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:50.875+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:47:50.876+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:47:50.882+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:50.882+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@3c29fd9]]
-2024-07-21T21:47:50.883+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:55.604+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:47:55.604+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:47:55.608+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:55.609+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@6209f954]]
-2024-07-21T21:47:55.610+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:58.200+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
-2024-07-21T21:47:58.201+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
-2024-07-21T21:47:58.263+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
-2024-07-21T21:47:58.264+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
-2024-07-21T21:47:58.265+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:47:58.276+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:47:58.277+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:47:58.282+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:47:58.282+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@725dbd59]]
-2024-07-21T21:47:58.284+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:48:07.923+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:48:07.925+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:48:07.933+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:48:07.934+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@57ebf5d3]]
-2024-07-21T21:48:07.935+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:51:49.179+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:51:49.179+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:51:49.184+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:51:49.185+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@4adfe24a]]
-2024-07-21T21:51:49.186+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:51:53.937+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/api/tasks/17", parameters={}
-2024-07-21T21:51:53.938+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#updateTask(Long, Task)
-2024-07-21T21:51:53.939+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.khooch.taskmanager.entity.Task@3a6ae740]
-2024-07-21T21:51:53.945+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:51:53.946+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.khooch.taskmanager.entity.Task@3ea8e2d7]
-2024-07-21T21:51:53.947+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:51:53.956+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:51:53.957+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:51:53.961+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:51:53.962+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@5503ac1]]
-2024-07-21T21:51:53.963+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:51:57.235+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/tasks/17", parameters={}
-2024-07-21T21:51:57.235+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#updateTask(Long, Task)
-2024-07-21T21:51:57.236+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.khooch.taskmanager.entity.Task@6ea38ba0]
-2024-07-21T21:51:57.249+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:51:57.249+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.khooch.taskmanager.entity.Task@4ae0a6da]
-2024-07-21T21:51:57.251+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-07-21T21:51:57.256+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
-2024-07-21T21:51:57.257+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
-2024-07-21T21:51:57.261+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2024-07-21T21:51:57.261+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@4a307a35]]
-2024-07-21T21:51:57.263+08:00 DEBUG 9896 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T09:08:59.501+08:00  INFO 26072 --- [taskmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-25T09:08:59.943+08:00  WARN 26072 --- [taskmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-25T09:08:59.999+08:00  INFO 26072 --- [taskmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2024-07-25T09:09:00.264+08:00 DEBUG 26072 --- [taskmanager] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-07-25T09:09:00.406+08:00 DEBUG 26072 --- [taskmanager] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-07-25T09:09:00.585+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-25T09:09:00.668+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f28b436, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7911a52e, org.springframework.security.web.context.SecurityContextHolderFilter@756a8e66, org.springframework.security.web.header.HeaderWriterFilter@17a805d3, org.springframework.web.filter.CorsFilter@6487999c, org.springframework.security.web.authentication.logout.LogoutFilter@6b93e252, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12cffba3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fdde2ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18393ed5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b980921, org.springframework.security.web.access.ExceptionTranslationFilter@37b9c8bd, org.springframework.security.web.access.intercept.AuthorizationFilter@7fbcd6d8]
+2024-07-25T09:09:00.782+08:00 DEBUG 26072 --- [taskmanager] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-25T09:09:00.836+08:00 DEBUG 26072 --- [taskmanager] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-25T09:09:01.187+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-25T09:09:01.271+08:00  INFO 26072 --- [taskmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-25T09:09:01.284+08:00  INFO 26072 --- [taskmanager] [restartedMain] c.k.taskmanager.TaskManagerApplication   : Started TaskManagerApplication in 7.555 seconds (process running for 8.546)
+2024-07-25T09:09:01.462+08:00  INFO 26072 --- [taskmanager] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25T09:09:01.463+08:00  INFO 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-25T09:09:01.464+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-07-25T09:09:01.464+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-07-25T09:09:01.464+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-07-25T09:09:01.466+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@48bdf138
+2024-07-25T09:09:01.467+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4deeb9d
+2024-07-25T09:09:01.467+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-07-25T09:09:01.468+08:00  INFO 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-25T09:09:01.527+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
+2024-07-25T09:09:01.529+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
+2024-07-25T09:09:01.837+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-25T09:09:01.838+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
+2024-07-25T09:09:01.842+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T09:33:30.710+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T09:33:30.711+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T09:33:30.731+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T09:33:30.732+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2b605eac]]
+2024-07-25T09:33:30.743+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T09:36:20.527+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
+2024-07-25T09:36:20.528+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
+2024-07-25T09:36:20.592+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-25T09:36:20.593+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
+2024-07-25T09:36:20.594+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T09:49:20.379+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
+2024-07-25T09:49:20.380+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
+2024-07-25T09:49:20.441+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-25T09:49:20.442+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
+2024-07-25T09:49:20.443+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T09:56:19.493+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T09:56:19.495+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T09:56:19.500+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T09:56:19.501+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@331fdff5]]
+2024-07-25T09:56:19.502+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:09:22.236+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:09:22.237+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:09:22.242+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:09:22.242+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@25a24de2]]
+2024-07-25T10:09:22.243+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:09:26.003+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login?username=1&password=1", parameters={masked}
+2024-07-25T10:09:26.004+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.LoginRestController#loginSubmit(String, String)
+2024-07-25T10:09:26.064+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-25T10:09:26.065+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Login successful"]
+2024-07-25T10:09:26.066+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:10:29.320+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:10:29.320+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:10:29.325+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:10:29.326+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2c7cd74e]]
+2024-07-25T10:10:29.327+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:10:42.720+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:10:42.721+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:10:42.725+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:10:42.726+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@1e37851e]]
+2024-07-25T10:10:42.727+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:10:43.007+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:10:43.008+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:10:43.012+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:10:43.013+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@17dae8b0]]
+2024-07-25T10:10:43.014+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:11:06.770+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:11:06.771+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:11:06.776+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:11:06.777+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@5d145ff1]]
+2024-07-25T10:11:06.779+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:11:07.156+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:11:07.156+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:11:07.161+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:11:07.162+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@7d837934]]
+2024-07-25T10:11:07.163+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:14:23.461+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:14:23.462+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:14:23.467+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:14:23.468+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@4f7e43b]]
+2024-07-25T10:14:23.470+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:14:23.784+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:14:23.785+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:14:23.788+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:14:23.788+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@73eedfa1]]
+2024-07-25T10:14:23.789+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:21:20.042+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:21:20.043+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:21:20.048+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:21:20.049+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@1434447f]]
+2024-07-25T10:21:20.050+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:21:20.380+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:21:20.380+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:21:20.384+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:21:20.385+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@3eac2faa]]
+2024-07-25T10:21:20.385+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:22:41.709+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:22:41.709+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:22:41.714+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:22:41.715+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@1c6229d0]]
+2024-07-25T10:22:41.716+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:22:42.043+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:22:42.043+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:22:42.047+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:22:42.048+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@21d0f585]]
+2024-07-25T10:22:42.049+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:23:03.444+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:23:03.445+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:23:03.449+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:23:03.450+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@63b8866f]]
+2024-07-25T10:23:03.451+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:24:31.647+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:24:31.651+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:24:42.093+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:24:42.095+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:25:06.828+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:25:06.828+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:25:06.833+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:25:06.834+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@6222861e]]
+2024-07-25T10:25:06.835+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:25:08.934+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:25:08.935+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:25:08.939+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:25:08.939+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@3459ec6c]]
+2024-07-25T10:25:08.940+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:25:09.386+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:25:09.386+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:25:09.390+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:25:09.390+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2a4e897]]
+2024-07-25T10:25:09.391+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:25:09.596+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:25:09.596+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:25:09.600+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:25:09.601+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@129f255b]]
+2024-07-25T10:25:09.602+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:25:42.322+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:25:42.326+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:25:53.426+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:25:53.428+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:26:46.789+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2024-07-25T10:26:46.790+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-25T10:26:46.793+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-07-25T10:26:46.796+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.khooch.taskmanager.exception.GlobalExceptionHandler#handleException(Exception, WebRequest)
+2024-07-25T10:26:46.802+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/problem+json]
+2024-07-25T10:26:46.806+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Not Found', status=404, detail='No static resource login.', (truncated)...]
+2024-07-25T10:26:46.808+08:00  WARN 26072 --- [taskmanager] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource login.]
+2024-07-25T10:26:46.808+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-07-25T10:26:55.030+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:26:55.031+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:26:55.035+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:26:55.035+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2541bf11]]
+2024-07-25T10:26:55.036+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:26:56.209+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T10:26:56.210+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T10:26:56.214+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T10:26:56.215+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@6805503f]]
+2024-07-25T10:26:56.216+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T10:30:57.588+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:30:57.591+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:23.124+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:23.127+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:45.792+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:45.796+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:50.324+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:50.326+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:54.892+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:31:54.895+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:32:21.008+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:32:21.011+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:32:45.459+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:32:45.461+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:32:48.760+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:32:48.764+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:36:18.617+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:36:18.620+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed

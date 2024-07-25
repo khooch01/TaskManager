@@ -1,0 +1,24 @@
+/* UserHomePage Styles */
+.user-home-container {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.user-home-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #007bff;
+    font-size: 18px;
+}
