@@ -21,7 +21,7 @@ function App() {
     <Auth0Provider
       domain={domain}
       clientId={clientId}
-      redirectUri="https://e225-161-142-205-161.ngrok-free.app"
+      redirectUri="https://ca52-2001-f40-905-afd-d5f8-d6df-2d96-cee.ngrok-free.app/home"
     >
       <AuthProvider>
         <TaskProvider>

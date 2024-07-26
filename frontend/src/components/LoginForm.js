@@ -9,16 +9,12 @@ const LoginForm = () => {
   const navigate = useNavigate();
   const { loginWithRedirect } = useAuth0();
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    // Auth0 handles login, redirect to Auth0 login page
-    await loginWithRedirect({
-      redirectUri: window.location.origin,
-      appState: {
-        targetUrl: '/home',
-      },
+  const handleLogin = () => {
+    loginWithRedirect({
+      redirectUri: "https://ca52-2001-f40-905-afd-d5f8-d6df-2d96-cee.ngrok-free.app/home"
     });
   };
+  
 
   return (
     <form onSubmit={handleLogin}>

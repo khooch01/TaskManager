@@ -479,3 +479,60 @@ Caused by: java.sql.SQLException: Referencing column 'user_id' and referenced co
 2024-07-25T10:32:48.764+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
 2024-07-25T10:36:18.617+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
 2024-07-25T10:36:18.620+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:41:59.322+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:41:59.324+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:42:19.317+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:42:19.320+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:43:43.722+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:43:43.725+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:44:20.197+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:44:20.200+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:44:20.883+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T10:44:20.885+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:27:40.851+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:27:40.855+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:27:58.030+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:27:58.031+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:27:58.038+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:27:58.039+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@446caa68]]
+2024-07-25T14:27:58.041+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:28:45.440+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:28:45.440+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:28:45.444+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:28:45.444+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@78eb8fc0]]
+2024-07-25T14:28:45.445+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:29:03.700+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:29:03.700+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:29:03.704+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:29:03.705+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2c759331]]
+2024-07-25T14:29:03.706+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:29:06.506+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:29:06.507+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:29:06.511+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:29:06.511+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@595000dd]]
+2024-07-25T14:29:06.512+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:29:07.941+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:29:07.941+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:29:07.944+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:29:07.945+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@32e8ccfc]]
+2024-07-25T14:29:07.946+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:29:10.035+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:29:10.038+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:29:50.164+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:29:50.166+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:30:07.709+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:30:07.710+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:30:07.714+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:30:07.715+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@2c27ae9c]]
+2024-07-25T14:30:07.716+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:30:46.027+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/tasks", parameters={}
+2024-07-25T14:30:46.027+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.khooch.taskmanager.controller.TaskController#getAllTasks()
+2024-07-25T14:30:46.031+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-07-25T14:30:46.031+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.khooch.taskmanager.entity.Task@dd632fd]]
+2024-07-25T14:30:46.032+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-25T14:30:52.530+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:30:52.533+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-7] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:30:57.966+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:30:57.970+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:31:02.879+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
+2024-07-25T14:31:02.882+08:00 DEBUG 26072 --- [taskmanager] [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'https://e225-161-142-205-161.ngrok-free.app' origin is not allowed
