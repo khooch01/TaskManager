@@ -1,84 +1,90 @@
-Task Manager Application
-=========================
+Know Your Neighborhood
+Welcome to the Know Your Neighborhood project! This project aims to create a comprehensive web application that allows users to connect with their local community by providing essential information and fostering community engagement.
 
-Overview
---------
-The Task Manager application is a full-stack web application designed to help users manage their tasks efficiently. The backend is built using Spring Boot, and the frontend is developed using React.js. The application allows users to create, read, update, and delete tasks, as well as search for tasks based on different criteria.
-
-Backend Setup
--------------
-1. Ensure you have Java and Maven installed on your machine.
-2. Clone the backend repository from GitHub:
-   `git clone https://github.com/khooch01/TaskManager.git`
-3. Navigate to the project directory:
-   `cd TaskManager`
-4. Install the required dependencies and build the project:
-   `mvn clean install`
-5. Run the Spring Boot application:
-   `mvn spring-boot:run`
-6. The backend API will be accessible at:
-   `http://localhost:8080/api/tasks`
-
-Frontend Setup
---------------
-1. Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
-2. Navigate to the project directory:
-   `cd frontend`
-3. Install the required dependencies:
-   `npm install`
-4. Start the React development server:
-   `npm start`
-5. The frontend application will be accessible at:
-   `http://localhost:3000`
-
-Configuration
--------------
-To ensure proper communication between the frontend and backend, CORS (Cross-Origin Resource Sharing) must be configured. The backend's CORS settings are managed in the `WebConfig` class located at `src/main/java/com/khooch/taskmanager/configuration/WebConfig.java`. The configuration should allow requests from `http://localhost:3000`.
-
-Registration Requirements
--------------------------
-To register a new user, the following requirements must be met:
-1. **Username**: Must be longer than 6 characters.
-2. **Password**: Must contain at least one special character (@, !).
-   
+Table of Contents
+Introduction
 Features
---------
-1. **Task List**: View a list of all tasks.
-2. **Create Task**: Add new tasks with a title, description, category, and priority.
-3. **Edit Task**: Update existing tasks.
-4. **Delete Task**: Remove tasks from the list.
-5. **Search Task**: Search for tasks by title, description, category, or priority.
-
-File Structure
---------------
-- **backend**: Contains the Spring Boot application.
-  - `src/main/java/com/khooch/taskmanager`: Main application package.
-  - `src/main/java/com/khooch/taskmanager/configuration`: CORS configuration.
-  - `src/main/java/com/khooch/taskmanager/controller`: REST API controllers.
-  - `src/main/java/com/khooch/taskmanager/entity`: JPA entities.
-  - `src/main/java/com/khooch/taskmanager/repository`: JPA repositories.
-  - `src/main/java/com/khooch/taskmanager/service`: Service layer.
-
-- **frontend**: Contains the React application.
-  - `src/components`: React components.
-  - `src/pages`: Page components.
-  - `src/context`: Context for state management.
-  - `src/taskApi.js`: API functions for communication with the backend.
-
+Technologies Used
+Installation
 Usage
------
-1. **Create a Task**: Enter the task details in the "Create Task" section and click "Create".
-2. **Edit a Task**: Click the "Edit" button next to a task, modify the details, and click "Save".
-3. **Delete a Task**: Click the "Delete" button next to a task.
-4. **Search Tasks**: Use the search bar to filter tasks based on title, description, category, or priority.
+Project Structure
+Contributing
+License
+Introduction
+The Know Your Neighborhood application provides a platform for residents to access and share information about their local area. Users can log in using Auth0, view and update their profiles, and access various community resources.
 
-Troubleshooting
----------------
-- **Network Errors**: Ensure both the backend and frontend servers are running. Check the Developer Tools in your browser (F12) for network request details.
-- **Backend Issues**: Verify the backend API endpoints are working correctly using Postman or a similar tool.
-- **Frontend Issues**: Check the console logs in the browser for any error messages.
+Features
+User Authentication and Authorization: Secure login and registration using Auth0, with options for social login.
+Home Page: Personalized greetings and quick access to key pages like Contact Us, About Us, and Terms and Conditions.
+Profile Management: View and update profile information securely.
+Community Information: Access local events, services, and important contacts.
+Secure Logout: Proper termination of user sessions.
+Technologies Used
+Frontend: React.js
+Backend: Spring Boot
+Authentication: Auth0
+Deployment: ngrok for secure tunneling
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/khooch01/TaskManager.git
+cd TaskManager/know-your-neighborhood
+Install dependencies:
+bash
+Copy code
+npm install
+Set up Auth0:
 
-Contact
--------
-For any questions or issues, please contact the project maintainer at [khooch695@gmail.com].
+Create an Auth0 account and set up a new application.
+Configure your application settings and obtain the domain and client ID.
+Set the allowed callback URL and logout URL to the appropriate ngrok URL (e.g., https://your-ngrok-url.ngrok-free.app).
+Update environment variables:
 
+Create a .env file in the root directory and add the following:
+
+makefile
+Copy code
+REACT_APP_AUTH0_DOMAIN=your-auth0-domain
+REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
+Update ngrok URL:
+
+Open src/App.js and update the redirectUri in the Auth0Provider to your ngrok URL.
+Open src/pages/LoginForm.js and update the redirectUri in the login function to your ngrok URL.
+Usage
+Start the development server:
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000.
+
+Register or log in using the Auth0 authentication system.
+
+Project Structure
+java
+Copy code
+TaskManager/
+├── know-your-neighborhood/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── .env
+│   ├── package.json
+│   ├── README.md
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Note: When using this code, make sure to change the ngrok URL in src/App.js and src/pages/LoginForm.js to your own ngrok URL to ensure proper redirection during authentication.
