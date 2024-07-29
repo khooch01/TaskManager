@@ -56,7 +56,7 @@ REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
 Update ngrok URL:
 
 - Open src/App.js and update the redirectUri in the Auth0Provider to your ngrok URL.
-- Open src/components/LoginForm.js and update the redirectUri in the login function to your ngrok URL.
+- Open src/pages/IndexPage.js and update the redirectUri in the login function to your ngrok URL.
 
 ## Usage
 Start the development server:
@@ -97,7 +97,7 @@ Contributions are welcome! Please follow these steps to contribute:
 ## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Note: When using this code, make sure to change the ngrok URL in src/App.js and src/components/LoginForm.js to your own ngrok URL to ensure proper redirection during authentication. And also ensure on [Auth0](https://manage.auth0.com/ "Auth0") enter the url follow by the table.
+Note: When using this code, make sure to change the ngrok URL in src/App.js and src/pages/IndexPage.js to your own ngrok URL to ensure proper redirection during authentication. And also ensure on [Auth0](https://manage.auth0.com/ "Auth0") enter the url follow by the table.
 
 | Name  | URL  |
 | ------------ | ------------ |
