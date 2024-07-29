@@ -1,11 +1,8 @@
 package com.khooch.taskmanager.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
 import com.khooch.taskmanager.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-    User findByUsername(String username);
+    // Add additional query methods if needed
 }

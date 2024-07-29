@@ -1,45 +1,18 @@
 package com.khooch.taskmanager.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import java.util.Collection;
-import java.util.List;
-
-import com.khooch.taskmanager.validation.UsernameLength;
+import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "users")
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @NotBlank(message = "Username is required")
-    @UsernameLength
-    @Column(nullable = false, unique = true)
-    private String username;
-
-    @NotBlank(message = "Password is required")
-    @Column(nullable = false)
-    private String password;
-
-    @Column(nullable = false)
-    private boolean enabled;
-
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Task> tasks;
-    
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinTable(
-        name = "user_roles",
-        joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-        inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id")
-    )
-    private Collection<Role> roles;
-
-    public User() {
-    }
+    private String auth0Id;
+    private String name;
+    private String email;
+    private String picture;
+    private LocalDateTime lastLogin;
 
     // Getters and setters
     public Long getId() {
@@ -50,35 +23,43 @@ public class User {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getAuth0Id() {
+        return auth0Id;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setAuth0Id(String auth0Id) {
+        this.auth0Id = auth0Id;
     }
 
-    public String getPassword() {
-        return password;
+    public String getName() {
+        return name;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public boolean isEnabled() {
-        return enabled;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Collection<Role> getRoles() {
-        return roles;
+    public String getPicture() {
+        return picture;
     }
 
-    public void setRoles(Collection<Role> roles) {
-        this.roles = roles;
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
+
+    public LocalDateTime getLastLogin() {
+        return lastLogin;
+    }
+
+    public void setLastLogin(LocalDateTime lastLogin) {
+        this.lastLogin = lastLogin;
     }
 }

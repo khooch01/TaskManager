@@ -6,9 +6,10 @@ import '../styles/UserHomePage.css'; // Import CSS for styling
 import Profile from '../components/Profile';
 
 const UserHomePage = () => {
-  const { logout} = useAuth0();
+  const { logout } = useAuth0();
   const navigate = useNavigate();
   const [selectedContent, setSelectedContent] = useState('home');
+
   const handleLogout = () => {
     logout({ returnTo: window.location.origin });
     navigate('/login'); // Redirect to login page after logout
@@ -63,7 +64,6 @@ const HomeContent = () => (
       </p>
     </section>
 
-
     {/* Quick Links */}
     <section className="quick-links">
       <h2>Quick Links</h2>
@@ -106,11 +106,13 @@ const HomeContent = () => (
     </section>
   </div>
 );
+
 const ProfileContent = () => (
   <div className="profile-content">
     <Profile />
-    </div>
+  </div>
 );
+
 const ContactUsContent = () => (
   <div className="contact-us-content">
     <h1>Contact Us</h1>

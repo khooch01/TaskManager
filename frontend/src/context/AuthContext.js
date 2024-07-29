@@ -1,35 +1,44 @@
-// src/context/AuthContext.js
-import React, { createContext, useState, useContext } from 'react';
-import axiosInstance from '../api';
+import React, { createContext, useState, useEffect } from 'react';
+import axios from 'axios';
+import { useAuth0 } from '@auth0/auth0-react';
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-    const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null);
+  const { isAuthenticated, user: auth0User, getAccessTokenSilently } = useAuth0();
 
-    const login = async (username, password) => {
+  useEffect(() => {
+    const fetchUser = async () => {
+      if (isAuthenticated && auth0User) {
         try {
-            const response = await axiosInstance.post('/auth/login', null, {
-                params: { username, password }
-            });
-            setUser(response.data); // Assuming response.data contains the user data
-            return { success: true };
+          const token = await getAccessTokenSilently();
+          const response = await axios.post('/api/users/login', {
+            auth0Id: auth0User.sub,
+            name: auth0User.name,
+            email: auth0User.email,
+            picture: auth0User.picture,
+            lastLogin: new Date().toISOString()
+          }, {
+            headers: {
+              Authorization: `Bearer ${token}`
+            }
+          });
+          setUser(response.data);
         } catch (error) {
-            console.error('Login failed:', error);
-            return { success: false, message: error.response?.data || 'Login failed' };
+          console.error('Login failed:', error);
         }
+      }
     };
 
-    const logout = () => {
-        setUser(null);
-        // Optionally, you could also call a logout API endpoint here
-    };
+    fetchUser();
+  }, [isAuthenticated, auth0User, getAccessTokenSilently]);
 
-    return (
-        <AuthContext.Provider value={{ user, login, logout }}>
-            {children}
-        </AuthContext.Provider>
-    );
+  return (
+    <AuthContext.Provider value={{ user }}>
+      {children}
+    </AuthContext.Provider>
+  );
 };
 
-export const useAuth = () => useContext(AuthContext);
+export default AuthContext;
