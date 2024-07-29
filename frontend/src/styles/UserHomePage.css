@@ -1,24 +1,96 @@
-/* UserHomePage Styles */
-.user-home-container {
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-.user-home-container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style-type: none;
+/* src/styles/UserHomePage.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-brand h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
     padding: 0;
-}
-
-nav ul li {
+  }
+  
+  .navbar-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .home-content {
+    padding: 2rem;
+  }
+  
+  .contact-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-us-container, .terms-and-conditions-container {
+    padding: 2rem;
+  }
+  /* src/styles/HomeContent.css */
+.home-content {
+    padding: 20px;
+  }
+  
+  .home-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .home-content section {
+    margin-bottom: 40px;
+  }
+  
+  .home-content h2 {
+    font-size: 1.5em;
     margin-bottom: 10px;
-}
-
-nav ul li a {
+  }
+  
+  .home-content p,
+  .home-content ul {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .home-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .home-content a {
     color: #007bff;
-    font-size: 18px;
-}
+    text-decoration: none;
+  }
+  
+  .home-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .home-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  

@@ -6,7 +6,6 @@ import { AuthProvider } from './context/AuthContext';
 import { TaskProvider } from './context/TaskContext';
 import LoginPage from './pages/LoginPage';
 import RegistrationPage from './pages/RegistrationPage';
-import TaskPage from './pages/TaskPage';
 import UserHomePage from './pages/UserHomePage';
 import IndexPage from './pages/IndexPage';
 import ContactUsPage from './pages/ContactUsPage';
@@ -21,7 +20,7 @@ function App() {
     <Auth0Provider
       domain={domain}
       clientId={clientId}
-      redirectUri="https://ca52-2001-f40-905-afd-d5f8-d6df-2d96-cee.ngrok-free.app/home"
+      redirectUri="https://6803-2001-f40-905-afd-3c54-cb9d-25c6-45c2.ngrok-free.app/home"
     >
       <AuthProvider>
         <TaskProvider>
@@ -30,12 +29,11 @@ function App() {
               <Route path="/" element={<IndexPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegistrationPage />} />
-              <Route path="/tasks" element={<TaskPage />} />
               <Route path="/contact-us" element={<ContactUsPage />} />
               <Route path="/about-us" element={<AboutUsPage />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditionsPage />} />
               <Route path="/home" element={<UserHomePage />} />
-              <Route path="/logout" element={<LoginPage />} /> {/* Add a route for logout */}
+              <Route path="/logout" element={<IndexPage />} /> {/* Add a route for logout */}
             </Routes>
           </Router>
         </TaskProvider>

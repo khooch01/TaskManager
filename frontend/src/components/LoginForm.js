@@ -11,12 +11,13 @@ const LoginForm = () => {
 
   const handleLogin = () => {
     loginWithRedirect({
-      redirectUri: "https://ca52-2001-f40-905-afd-d5f8-d6df-2d96-cee.ngrok-free.app/home"
+      redirectUri: "https://6803-2001-f40-905-afd-3c54-cb9d-25c6-45c2.ngrok-free.app/home"
     });
   };
   
 
   return (
+    
     <form onSubmit={handleLogin}>
       <div>
         <label>Username: </label>
